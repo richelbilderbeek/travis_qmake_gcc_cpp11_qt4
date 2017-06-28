@@ -10,9 +10,7 @@ HEADERS += my_dialog.h
 RESOURCES += travis_qmake_gcc_cpp11_qt4.qrc
 
 # C++11
-QMAKE_CXX = g++-5
-QMAKE_LINK = g++-5
-QMAKE_CC = gcc-5
+CONFIG += c++11
 QMAKE_CXXFLAGS += -std=c++11
 
 # Prevent Qt for failing with this error:
