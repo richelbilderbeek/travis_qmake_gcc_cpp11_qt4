@@ -16,10 +16,13 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Source: QDialog with Qt resource file
 
 More complex builds:
- * C++11: [travis_qmake_gcc_cpp11_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt)
+
+ * Use C++14: [travis_qmake_gcc_cpp14_qt4](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qt4)
+ * Use Qt5: [travis_qmake_gcc_cpp11_qt5](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt5)
+ * Add Qwt: [travis_qmake_gcc_cpp11_qt4_qwt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt4_qwt)
  * Tested by QTest: [travis_qmake_gcc_cpp98_qt_qtest](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qt_qtest)
  * Tested by LDTP: [travis_qmake_gcc_cpp98_qt_ldtp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98_qt_ldtp)
- * Use Qt5: [travis_qmake_gcc_cpp98_qt5](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11_qt5)
 
 Less complex builds:
- * STL only: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
+
+ * STL only: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
