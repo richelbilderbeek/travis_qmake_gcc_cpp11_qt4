@@ -5,10 +5,10 @@ compiler: gcc
 install: 
   - sudo apt update -qq
 
-service:
-  - xvfb
+services:
+ - xvfb
 
 script: 
   - qmake
-  - make
+  - make --silent
   - ./travis_qmake_gcc_cpp11_qt4
