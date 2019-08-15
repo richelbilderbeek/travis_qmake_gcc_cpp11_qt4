@@ -1,11 +1,14 @@
 language: cpp
-compiler: gcc
 dist: bionic
+compiler: gcc
+
+install: 
+  - sudo apt update -qq
 
 services:
-  - xvfb
+ - xvfb
 
 script: 
   - qmake
-  - make
+  - make --silent
   - ./travis_qmake_gcc_cpp11_qt4
